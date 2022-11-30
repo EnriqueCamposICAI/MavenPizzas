@@ -1,0 +1,21 @@
+INFORME DATASETS
+
+Archivo -> order_details_mod.csv
+
+       order_details_id order_id pizza_id quantity
+Type              int64    int64   object   object
+Size              48620    48620    48620    48620
+Unique            48620    21350      708        9
+Null                  0        0     5673     4726
+NaN                   0        0     5673     4726
+
+
+Archivo -> orders_mod.csv
+
+       order_id    date    time
+Type      int64  object  object
+Size      21350   21350   21350
+Unique    21350    5065   10689
+Null          0    2353    2038
+NaN           0    2353    2038
+

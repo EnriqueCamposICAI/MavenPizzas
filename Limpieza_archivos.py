@@ -5,17 +5,19 @@ import datetime
 import re
 import numpy as np
 import random
+import generar_informe as inf
 
 
-def extract(archivos):
+def extract(nombres):
     # SE SACAN LOS DATAFRAMES
-    for i in range(len(archivos)):
+    archivos = []
+    for i in range(len(nombres)):
 
-        nombre = 'Datasets_pizza_mod/' + archivos[i]
+        nombre = 'Datasets_pizza_mod/' + nombres[i]
         if i in [0, 1]:
-            archivos[i] = pd.read_csv(nombre, encoding='utf-8', sep=';')
+            archivos.append(pd.read_csv(nombre, encoding='utf-8', sep=';'))
         else:
-            archivos[i] = pd.read_csv(nombre, encoding='utf-8')
+            archivos.append(pd.read_csv(nombre, encoding='utf-8'))
 
     return archivos
 
@@ -214,7 +216,9 @@ def lista_pizzas():
 def main(nombres):
 
     archivos = extract(nombres)
-
+    string, datsets = inf.generar_informe_datos(archivos, nombres)
+    with open('informe_datos_2016.txt', 'w') as f:
+        f.write(string)
     archivos[1] = transfrom_orders(archivos[1])
     pizzas = lista_pizzas()
     archivos[0] = transform_order_details(
@@ -223,7 +227,7 @@ def main(nombres):
 
 if __name__ == "__main__":
     pd.options.mode.chained_assignment = None
-    main(['order_details_mod.csv',
-          'orders_mod.csv'])
+    nombres = ['order_details_mod.csv', 'orders_mod.csv']
+    main(nombres)
 
     pass
