@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Data Título="Estimacion de ingredientes semanales para Maven Pizzas (2015)">
+  <Ingrediente Nombre="Mozzarella Cheese" Cantidad="1752"/>
+  <Ingrediente Nombre="Tomato Sauce" Cantidad="1312"/>
+  <Ingrediente Nombre="Garlic" Cantidad="1046"/>
+  <Ingrediente Nombre="Tomatoes" Cantidad="991"/>
+  <Ingrediente Nombre="Red Onions" Cantidad="720"/>
+  <Ingrediente Nombre="Red Peppers" Cantidad="602"/>
+  <Ingrediente Nombre="Spinach" Cantidad="346"/>
+  <Ingrediente Nombre="Pepperoni" Cantidad="329"/>
+  <Ingrediente Nombre="Chicken" Cantidad="321"/>
+  <Ingrediente Nombre="Mushrooms" Cantidad="320"/>
+  <Ingrediente Nombre="Capocollo" Cantidad="262"/>
+  <Ingrediente Nombre="Jalapeno Peppers" Cantidad="225"/>
+  <Ingrediente Nombre="Green Olives" Cantidad="216"/>
+  <Ingrediente Nombre="Artichokes" Cantidad="207"/>
+  <Ingrediente Nombre="Green Peppers" Cantidad="189"/>
+  <Ingrediente Nombre="Feta Cheese" Cantidad="184"/>
+  <Ingrediente Nombre="Pineapple" Cantidad="179"/>
+  <Ingrediente Nombre="Cilantro" Cantidad="138"/>
+  <Ingrediente Nombre="Chipotle Sauce" Cantidad="138"/>
+  <Ingrediente Nombre="Kalamata Olives" Cantidad="138"/>
+  <Ingrediente Nombre="Corn" Cantidad="138"/>
+  <Ingrediente Nombre="Goat Cheese" Cantidad="136"/>
+  <Ingrediente Nombre="Fontina Cheese" Cantidad="126"/>
+  <Ingrediente Nombre="Asiago Cheese" Cantidad="124"/>
+  <Ingrediente Nombre="Bacon" Cantidad="123"/>
+  <Ingrediente Nombre="Pesto Sauce" Cantidad="103"/>
+  <Ingrediente Nombre="Thai Sweet Chilli Sauce" Cantidad="98"/>
+  <Ingrediente Nombre="Barbecued Chicken" Cantidad="94"/>
+  <Ingrediente Nombre="Barbecue Sauce" Cantidad="94"/>
+  <Ingrediente Nombre="Artichoke" Cantidad="92"/>
+  <Ingrediente Nombre="Gouda Cheese" Cantidad="92"/>
+  <Ingrediente Nombre="Ricotta Cheese" Cantidad="89"/>
+  <Ingrediente Nombre="Gorgonzola Piccante Cheese" Cantidad="89"/>
+  <Ingrediente Nombre="Zucchini" Cantidad="89"/>
+  <Ingrediente Nombre="Parmigiano Reggiano Cheese" Cantidad="89"/>
+  <Ingrediente Nombre="Sliced Ham" Cantidad="85"/>
+  <Ingrediente Nombre="Peperoncini verdi" Cantidad="81"/>
+  <Ingrediente Nombre="Calabrese Salami" Cantidad="77"/>
+  <Ingrediente Nombre="Beef Chuck Roast" Cantidad="74"/>
+  <Ingrediente Nombre="Blue Cheese" Cantidad="74"/>
+  <Ingrediente Nombre="Romano Cheese" Cantidad="74"/>
+  <Ingrediente Nombre="Smoked Gouda Cheese" Cantidad="74"/>
+  <Ingrediente Nombre="Provolone Cheese" Cantidad="74"/>
+  <Ingrediente Nombre="Coarse Sicilian Salami" Cantidad="70"/>
+  <Ingrediente Nombre="Sun-dried Tomatoes" Cantidad="70"/>
+  <Ingrediente Nombre="Onions" Cantidad="70"/>
+  <Ingrediente Nombre="Luganega Sausage" Cantidad="70"/>
+  <Ingrediente Nombre="Oregano" Cantidad="60"/>
+  <Ingrediente Nombre="Genoa Salami" Cantidad="60"/>
+  <Ingrediente Nombre="Prosciutto di San Daniele" Cantidad="55"/>
+  <Ingrediente Nombre="Arugula" Cantidad="55"/>
+  <Ingrediente Nombre="Anchovies" Cantidad="55"/>
+  <Ingrediente Nombre="Chorizo Sausage" Cantidad="42"/>
+  <Ingrediente Nombre="Italian Sausage" Cantidad="42"/>
+  <Ingrediente Nombre="Soppressata Salami" Cantidad="39"/>
+  <Ingrediente Nombre="Alfredo Sauce" Cantidad="39"/>
+  <Ingrediente Nombre="Friggitello Peppers" Cantidad="38"/>
+  <Ingrediente Nombre="Pancetta" Cantidad="38"/>
+  <Ingrediente Nombre="Nduja Salami" Cantidad="38"/>
+  <Ingrediente Nombre="Eggplant" Cantidad="37"/>
+  <Ingrediente Nombre="Plum Tomatoes" Cantidad="37"/>
+  <Ingrediente Nombre="Thyme" Cantidad="12"/>
+  <Ingrediente Nombre="Pears" Cantidad="12"/>
+  <Ingrediente Nombre="Caramelized Onions" Cantidad="12"/>
+  <Ingrediente Nombre="Prosciutto" Cantidad="12"/>
+  <Ingrediente Nombre="Brie Carre Cheese" Cantidad="12"/>
+</Data>

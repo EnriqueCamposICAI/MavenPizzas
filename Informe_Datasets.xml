@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Información Título="Informes de los DataFrames de Maven Pizzas">
+  <DataFrame Nombre="data_dictionary.csv">
+    <Columna Columna="Table">
+      <Atributo Type="object"/>
+      <Atributo Size="15"/>
+      <Atributo Unique="4"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="Field">
+      <Atributo Type="object"/>
+      <Atributo Size="15"/>
+      <Atributo Unique="12"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="Description">
+      <Atributo Type="object"/>
+      <Atributo Size="15"/>
+      <Atributo Unique="15"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+  </DataFrame>
+  <DataFrame Nombre="order_details.csv">
+    <Columna Columna="order_details_id">
+      <Atributo Type="int64"/>
+      <Atributo Size="48620"/>
+      <Atributo Unique="48620"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="order_id">
+      <Atributo Type="int64"/>
+      <Atributo Size="48620"/>
+      <Atributo Unique="21350"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="pizza_id">
+      <Atributo Type="object"/>
+      <Atributo Size="48620"/>
+      <Atributo Unique="91"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="quantity">
+      <Atributo Type="int64"/>
+      <Atributo Size="48620"/>
+      <Atributo Unique="4"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+  </DataFrame>
+  <DataFrame Nombre="orders.csv">
+    <Columna Columna="order_id">
+      <Atributo Type="int64"/>
+      <Atributo Size="21350"/>
+      <Atributo Unique="21350"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="date">
+      <Atributo Type="object"/>
+      <Atributo Size="21350"/>
+      <Atributo Unique="358"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="time">
+      <Atributo Type="object"/>
+      <Atributo Size="21350"/>
+      <Atributo Unique="16382"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+  </DataFrame>
+  <DataFrame Nombre="pizza_types.csv">
+    <Columna Columna="pizza_type_id">
+      <Atributo Type="object"/>
+      <Atributo Size="32"/>
+      <Atributo Unique="32"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="name">
+      <Atributo Type="object"/>
+      <Atributo Size="32"/>
+      <Atributo Unique="32"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="category">
+      <Atributo Type="object"/>
+      <Atributo Size="32"/>
+      <Atributo Unique="4"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="ingredients">
+      <Atributo Type="object"/>
+      <Atributo Size="32"/>
+      <Atributo Unique="32"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+  </DataFrame>
+  <DataFrame Nombre="pizzas.csv">
+    <Columna Columna="pizza_id">
+      <Atributo Type="object"/>
+      <Atributo Size="96"/>
+      <Atributo Unique="96"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="pizza_type_id">
+      <Atributo Type="object"/>
+      <Atributo Size="96"/>
+      <Atributo Unique="32"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="size">
+      <Atributo Type="object"/>
+      <Atributo Size="96"/>
+      <Atributo Unique="5"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+    <Columna Columna="price">
+      <Atributo Type="float64"/>
+      <Atributo Size="96"/>
+      <Atributo Unique="27"/>
+      <Atributo Null="0"/>
+      <Atributo NaN="0"/>
+    </Columna>
+  </DataFrame>
+</Información>
