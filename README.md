@@ -10,3 +10,5 @@ Para la ejecución correcta de todos los archivos hay que saber qué archivos re
   - MavenPizza_Report_Excel.py -> requiere la carpeta Datasets_pizza_fixed* y guarda los             resultados en la misma carpeta donde se encuentre el archivo.
 
 * Nota Datasets_pizza_fixed: es una ejecución propia de Limpieza_archivos.py, pero como ese       archivo contiene aleatoriedad en la asignación de las pizzas para los nan, los resultados no     serían siempre los mismos. Por ello, Limpieza_archivos.py guarda los resultados en               Datasets_pizza_mod. Datasets_pizza_fixed no se debe cambiar. 
+
+Imports necesarios -> pandas, lxml.etree, openpyxl, re, datetime, word2number, dateutil.parser, numpy, random, fpdf, seaborn, matplotlib.pyplot, warnings (sumando todos los archivos)
